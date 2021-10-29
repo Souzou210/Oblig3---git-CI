@@ -19,4 +19,4 @@ jobs:
     - name: Build with Maven
       run: |
            cd Testing2.0
-           mvn -B package --file pom.xml
+           mvn --batch-mode --update-snapshots verify
