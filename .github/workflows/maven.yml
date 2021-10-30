@@ -20,4 +20,4 @@ jobs:
       run: |
            cd Testing2.0
            mvn -B package --file pom.xml
-           mvn clean package cargo:deploy
+           mvn clean package
